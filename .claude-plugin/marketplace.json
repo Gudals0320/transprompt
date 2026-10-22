@@ -1,0 +1,5 @@
+{
+  "name": "transprompt",
+  "owner": { "name": "Gudals0320" },
+  "plugins": [{ "name": "transprompt", "source": "./" }]
+}
