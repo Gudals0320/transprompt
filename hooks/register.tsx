@@ -125,7 +125,7 @@ async function toPrompt($: EngineInterface, text: string, bypass: boolean) {
 }
 
 export const register: Register = (on, options) => {
-  const minChars = Number(options.minChars ?? 100)
+  const minChars = Number(options.minChars ?? 200)
   const model = String(options.model ?? 'sonnet')
   const voiceGate = options.voiceGate !== false
   const voiceThreshold = Number(options.voiceThreshold ?? 2)

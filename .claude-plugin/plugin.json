@@ -1,6 +1,6 @@
 {
   "name": "transprompt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "음성인식으로 받아쓴 긴 프롬프트를 가로채 마크다운으로 구조화하고, 승인을 받은 뒤 작업 Claude에게 넘깁니다.",
   "types": "./types/index.d.ts",
   "userConfig": {
@@ -8,7 +8,7 @@
       "type": "number",
       "title": "구조화 최소 글자 수",
       "description": "이 글자 수 이상인 프롬프트만 가로채서 구조화합니다.",
-      "default": 100
+      "default": 200
     },
     "model": {
       "type": "string",
